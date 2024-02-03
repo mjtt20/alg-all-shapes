@@ -1,5 +1,18 @@
 
- //cm to m & conversion
+// error handling
+
+function updateParagraph(input) {
+    var userInput = document.getElementById(input).value;
+    if (isNaN(userInput)) {
+        alert('Please enter number!')
+        document.getElementById(input).value = '';
+    }
+    else {
+
+    }
+}
+
+//cm to m & conversion
 
 function addList(input, input2) {
     const resultList = document.getElementById('olList');
