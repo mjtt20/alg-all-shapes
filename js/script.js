@@ -1,5 +1,5 @@
 
-// all alg
+ //cm to m & conversion
 
 function addList(input, input2) {
     const resultList = document.getElementById('olList');
@@ -20,6 +20,7 @@ function addList(input, input2) {
     buttonSQ.textContent = 'Covert to m2'
 
 
+    // all alg
 
     buttonSQ.classList.add('btn-tag');
     buttonSQ.onclick = function () {
