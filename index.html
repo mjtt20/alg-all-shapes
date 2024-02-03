@@ -77,6 +77,29 @@
                 <button id="ell-btn" class="text-white bg-sky-500 p-2 rounded my-2">Calculate</button>
             </div>
 
+            <!-- Parallelogram -->
+
+            <div id="tanim3" onmouseover="changeBG('tanim3')" onmouseout="normal('tanim3')"
+                class="border-2 border-gray-1000 flex flex-col items-center  rounded-lg">
+                <img class="m-3 image" src="images/parallelogram.png" alt="">
+                <h1 class="mt-2">Parallelogram</h1>
+                <p class="mt-2">Area (A) = <span id="firstValue">b</span> x <span id="secoundValue">h</span>
+                </p>
+                <div class="flex mt-2">
+                    <div class="flex m-3"><input id="par-input" onkeyup="updateParagraph('par-input')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="b">
+                        <p class="ml-1">cm</p>
+                    </div>
+                    <div class="flex m-3"><input id="par-input2" onkeyup="updateParagraph('par-input2')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="h">
+                        <p class="ml-1">cm</p>
+                    </div>
+                </div>
+                <button id="par-btn" class="text-white bg-sky-500 p-2 rounded my-2">Calculate</button>
+            </div>
+
             
         </div>
         <div class="rounded-lg mt-4 width col-span-1 border-2 border-gray-1000">
