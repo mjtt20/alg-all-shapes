@@ -100,6 +100,29 @@
                 <button id="par-btn" class="text-white bg-sky-500 p-2 rounded my-2">Calculate</button>
             </div>
 
+            <!-- Pentagon -->
+
+            <div id="tanim4" onmouseover="changeBG('tanim4')" onmouseout="normal('tanim4')"
+                class="border-2 border-gray-1000 flex flex-col items-center  rounded-lg">
+                <img class="m-3 image" src="images/pentagon.png" alt="">
+                <h1 class="mt-2">Pentagon</h1>
+                <p class="mt-2">Area (A) = <span id="point2">0.5</span> x <span id="firstValue">p</span> x <span
+                        id="secoundValue">b</span> </p>
+                <div class="flex mt-2">
+                    <div class="flex m-3"><input id="pen-input" onkeyup="updateParagraph('pen-input')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="p">
+                        <p class="ml-1">cm</p>
+                    </div>
+                    <div class="flex m-3"><input id="pen-input2" onkeyup="updateParagraph('pen-input2')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="b">
+                        <p class="ml-1">cm</p>
+                    </div>
+                </div>
+                <button id="pen-btn" class="text-white bg-sky-500 p-2 rounded my-2">Calculate</button>
+            </div>
+
             
         </div>
         <div class="rounded-lg mt-4 width col-span-1 border-2 border-gray-1000">
