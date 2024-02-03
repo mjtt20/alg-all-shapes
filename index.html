@@ -146,7 +146,28 @@
                 <button id="rec-btn" class="text-white bg-sky-500 p-2 rounded my-2">Calculate</button>
             </div>
 
-            
+            <!-- Rhombus -->
+
+            <div id="tanim6" onmouseover="changeBG('tanim6')" onmouseout="normal('tanim6')"
+                class="border-2 border-gray-1000 flex flex-col items-center  rounded-lg">
+                <img class="m-3 image" src="images/rhombus.png" alt="">
+                <h1 class="mt-2">Rhombus</h1>
+                <p class="mt-2">Area (A) = <span id="point3">0.5</span> x <span id="firstValue">d1</span> x <span
+                        id="secoundValue">d2</span></p>
+                <div class="flex mt-2">
+                    <div class="flex m-3"><input id="rho-input" onkeyup="updateParagraph('rho-input')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="d1">
+                        <p class="ml-1">cm</p>
+                    </div>
+                    <div class="flex m-3"><input id="rho-input2" onkeyup="updateParagraph('rho-input2')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="d2">
+                        <p class="ml-1">cm</p>
+                    </div>
+                </div>
+                <button id="rho-btn" class="text-white bg-sky-500 p-2 rounded my-2">Calculate</button>
+            </div>
         </div>
         <div class="rounded-lg mt-4 width col-span-1 border-2 border-gray-1000">
             <h1 class="text-center text-lg underline">Area Calculation</h1>
