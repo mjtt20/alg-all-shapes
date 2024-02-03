@@ -12,6 +12,25 @@ function updateParagraph(input) {
     }
 }
 
+
+
+// function for random color 
+
+function changeBG(input) {
+    const letters = '0123465789ABCDEF'
+    let hexCode = '#';
+    for (var i = 0; i < 6; i++) {
+        hexCode += letters[Math.floor(Math.random() * 16)]
+    }
+    const getTheElenemt = document.getElementById(input);
+    getTheElenemt.style.backgroundColor = hexCode;
+}
+function normal(input) {
+    const getTheElenemt = document.getElementById(input);
+    getTheElenemt.style.backgroundColor = 'white';
+}
+
+
 //cm to m & conversion
 
 function addList(input, input2) {
