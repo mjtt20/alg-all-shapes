@@ -22,6 +22,49 @@
         </div>
     </div>
 
+    <!-- section of alg -->
+
+    <div class="grid grid-cols-4 gap-4">
+        <div class="grid grid-cols-3 gap-4 mt-4 col-span-3">
+
+            <!-- Triangle -->
+
+            <div id="tanim" onmouseover="changeBG('tanim')" onmouseout="normal('tanim')"
+                class="border-2 border-gray-1000 flex flex-col items-center  rounded-lg">
+                <img class="m-3 image" src="images/triangle.png" alt="">
+                <h1 class="mt-2">Triangle</h1>
+                <p class="mt-2">Area (A) = <span id="point">0.5</span> x <span id="firstValue">b</span> x <span
+                        id="secoundValue">h</span></p>
+                <div class="flex mt-2">
+                    <div class="flex m-3">
+                        <input id="tri-input" onkeyup="updateParagraph('tri-input')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="b">
+                        <p class="ml-1">cm</p>
+                    </div>
+                    <div class="flex m-3">
+                        <input id="tri-input2" onkeyup="updateParagraph('tri-input2')"
+                            class="text-center rounded-lg outline-none input-width bg-zinc-200" type="text"
+                            placeholder="h">
+                        <p class="ml-1">cm</p>
+                    </div>
+                </div>
+                <button id="tri-btn" class="text-white bg-sky-500 p-2 rounded my-2">Calculate</button>
+            </div>
+
+            
+        </div>
+        <div class="rounded-lg mt-4 width col-span-1 border-2 border-gray-1000">
+            <h1 class="text-center text-lg underline">Area Calculation</h1>
+            <ol id="olList" class="list-decimal">
+
+            </ol>
+
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>
